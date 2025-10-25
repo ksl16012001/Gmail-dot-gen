@@ -41,7 +41,7 @@ def process_and_save(base_name, max_dots=5):
 
 def main():
     base_name = "meghanbethnewmankierstincarlei"  # Tên dài ví dụ
-    max_dots = 35  # Giới hạn tối đa 5 dấu chấm
+    max_dots = 35  # Giới hạn tối đa 35 dấu chấm
     
     # Sử dụng ProcessPoolExecutor để tối ưu việc xử lý song song
     with concurrent.futures.ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
@@ -49,3 +49,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
